@@ -24,9 +24,7 @@
             var a = document.createElement("a");
             a.href = app.href;
             var img = document.createElement("img");
-            img.src = "broken";
-            img.height = "100";
-            img.width = "100";
+            img.src = "http://placehold.it/100x100";
             a.appendChild(img);
             var linkText = document.createTextNode(app.name);
             a.appendChild(linkText);

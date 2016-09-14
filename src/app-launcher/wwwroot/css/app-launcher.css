@@ -1,0 +1,49 @@
+﻿
+table.app-launcher-apps {
+    background: #111111;
+	border: solid black 15px;
+    border-collapse: separate; /* override bootstrap if necessary */
+}
+
+table.app-launcher-apps tr td {
+	min-width: 100px;
+	margin-bottom: 15px;
+	line-height: 130%;
+	font-size: 18px;
+	text-align: center;
+	padding: 15px;
+}
+
+table.app-launcher-apps tr td a img {
+	display: block;
+	border-radius: 20px;
+	border: solid 1px rgba(255,255,255,0.2);
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 5px;
+}
+
+table.app-launcher-apps tr td a:hover img {
+	border-color: #fff;
+}
+
+table.app-launcher-apps tr td a {
+    text-decoration: none;
+	display: block;
+    white-space: nowrap;
+    width: 100px;                   
+    overflow: hidden;              /* "overflow" value must be different from "visible" */ 
+    text-overflow: ellipsis;
+}
+table.app-launcher-apps tr td a:link {
+    color: #eee;
+}
+table.app-launcher-apps tr td a:visited {
+    color: #eee;
+}
+table.app-launcher-apps tr td a:hover {
+    color: #fff;
+}
+table.app-launcher-apps tr td a:active {
+    color: #eee;
+}
