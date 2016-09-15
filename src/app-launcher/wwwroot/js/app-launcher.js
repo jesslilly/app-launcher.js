@@ -23,9 +23,20 @@
 
             var a = document.createElement("a");
             a.href = app.href;
-            var img = document.createElement("img");
-            img.src = "http://placehold.it/100x100";
-            a.appendChild(img);
+            a.title = app.name; // Added because of the ellipses.
+
+            // todo: support images in the future.
+            //var img = document.createElement("img");
+            //img.src = "http://placehold.it/100x100";
+            //a.appendChild(img);
+
+            var div = document.createElement("div");
+            var iconLetter = (app.name) ? app.name.substring(0, 1).toLowerCase() : "z";
+            div.className = "app-launcher-icon-" + iconLetter;
+            var iconText = document.createTextNode(iconLetter);
+            div.appendChild(iconText);
+            a.appendChild(div);
+
             var linkText = document.createTextNode(app.name);
             a.appendChild(linkText);
             td.appendChild(a);
