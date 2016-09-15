@@ -9,7 +9,7 @@
         var tr = document.createElement("tr");
         table.appendChild(tr);
 
-        var columns = 4; // todo option.
+        var columns = 5; // todo option.
 
         apps.forEach(function(app, index) {
 

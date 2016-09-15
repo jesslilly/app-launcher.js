@@ -22,7 +22,6 @@ table.app-launcher-apps tr td a div {
 	margin: 0 auto 5px;
     vertical-align: middle;
 	font-size: 68px;
-    font-weight: bold;
 }
 
 table.app-launcher-apps tr td a:hover div {
@@ -51,8 +50,9 @@ table.app-launcher-apps tr td a:active {
 }
 
 table.app-launcher-apps .app-launcher-icon-a {
-    background: linear-gradient(#7d3, #3a0);
-    color: #fff
+    background: radial-gradient(#8e3, #370);
+    color: #fff;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-b {
     font-style: italic;
@@ -62,10 +62,12 @@ table.app-launcher-apps .app-launcher-icon-b {
 table.app-launcher-apps .app-launcher-icon-c {
     background: linear-gradient(#c4c,#909);
     color: #fff;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-d {
     background: linear-gradient(#49e, #27c);
     color: #fff;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-e {
     background: linear-gradient(#49e, #27c);
@@ -88,6 +90,7 @@ table.app-launcher-apps .app-launcher-icon-i {
     font-style: italic;
     background: linear-gradient(#49e, #27c);
     color: #fff;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-j {
     background: linear-gradient(#7d3, #3a0);
@@ -98,7 +101,10 @@ table.app-launcher-apps .app-launcher-icon-k {
     color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-l {
-    background: linear-gradient(#66f,#33e);
+    font-style: italic;
+    font-family: serif;
+    font-size: 50px;
+    background: #0912f4;
     color: #eee;
 }
 table.app-launcher-apps .app-launcher-icon-m {
@@ -108,10 +114,12 @@ table.app-launcher-apps .app-launcher-icon-m {
 table.app-launcher-apps .app-launcher-icon-n {
     background: linear-gradient(#c4c,#909);
     color: #fff;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-o {
     background: linear-gradient(#ccf,#33e);
     color: #eee;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-p {
     font-style: italic;
@@ -125,6 +133,7 @@ table.app-launcher-apps .app-launcher-icon-q {
 table.app-launcher-apps .app-launcher-icon-r {
     background: linear-gradient(#c4c,#909);
     color: #fff;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-s {
     background: linear-gradient(#7d3, #3a0);
@@ -132,8 +141,9 @@ table.app-launcher-apps .app-launcher-icon-s {
 }
 table.app-launcher-apps .app-launcher-icon-t {
     font-style: italic;
-    background: linear-gradient(#ff3, #aa1);
-    color: #111;
+    background: #fd0;
+    color: #000104;
+    font-weight: bold;
 }
 table.app-launcher-apps .app-launcher-icon-u {
     background: linear-gradient(#49e, #27c);
