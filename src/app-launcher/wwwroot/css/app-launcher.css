@@ -60,16 +60,16 @@ table.app-launcher-apps .app-launcher-icon-b {
     color: #010;
 }
 table.app-launcher-apps .app-launcher-icon-c {
-    background: #c4c;
-    color: #efe;
+    background: linear-gradient(#c4c,#909);
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-d {
     background: linear-gradient(#49e, #27c);
-    color: #efe;
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-e {
     background: linear-gradient(#49e, #27c);
-    color: #efe;
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-f {
     font-style: italic;
@@ -78,7 +78,7 @@ table.app-launcher-apps .app-launcher-icon-f {
 }
 table.app-launcher-apps .app-launcher-icon-g {
     background: linear-gradient(#49e, #27c);
-    color: #efe;
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-h {
     background: linear-gradient(#7d3, #3a0);
@@ -87,7 +87,7 @@ table.app-launcher-apps .app-launcher-icon-h {
 table.app-launcher-apps .app-launcher-icon-i {
     font-style: italic;
     background: linear-gradient(#49e, #27c);
-    color: #efe;
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-j {
     background: linear-gradient(#7d3, #3a0);
@@ -95,36 +95,36 @@ table.app-launcher-apps .app-launcher-icon-j {
 }
 table.app-launcher-apps .app-launcher-icon-k {
     background: linear-gradient(#49e, #27c);
-    color: #efe;
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-l {
-    background: linear-gradient(#49e, #27c);
-    color: #efe;
+    background: linear-gradient(#66f,#33e);
+    color: #eee;
 }
 table.app-launcher-apps .app-launcher-icon-m {
-    background: #33e;
-    color: #eee;
+    background: linear-gradient(#fff, #ccc);
+    color: #111;
 }
 table.app-launcher-apps .app-launcher-icon-n {
-    background: #a5a;
-    color: #eee;
+    background: linear-gradient(#c4c,#909);
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-o {
-    background: #33e;
+    background: linear-gradient(#ccf,#33e);
     color: #eee;
 }
 table.app-launcher-apps .app-launcher-icon-p {
     font-style: italic;
-    background: #917;
-    color: #eee;
+    background: linear-gradient(#c4c,#909);
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-q {
-    background: #33e;
+    background: linear-gradient(#ccf,#33e);
     color: #eee;
 }
 table.app-launcher-apps .app-launcher-icon-r {
-    background: #33e;
-    color: #eee;
+    background: linear-gradient(#c4c,#909);
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-s {
     background: linear-gradient(#7d3, #3a0);
@@ -136,16 +136,16 @@ table.app-launcher-apps .app-launcher-icon-t {
     color: #111;
 }
 table.app-launcher-apps .app-launcher-icon-u {
-    background: linear-gradient(linear-gradient(#49e, #27c), #27c);
-    color: #efe;
+    background: linear-gradient(#49e, #27c);
+    color: #fff;
 }
 table.app-launcher-apps .app-launcher-icon-v {
-    background: #eee;
+    background: linear-gradient(#fff, #ccc);
     color: #111;
 }
 table.app-launcher-apps .app-launcher-icon-w {
     font-style: italic;
-    background: #eee;
+    background: linear-gradient(#fff, #ccc);
     color: #111;
 }
 table.app-launcher-apps .app-launcher-icon-x {
@@ -157,6 +157,6 @@ table.app-launcher-apps .app-launcher-icon-y {
     color: #010;
 }
 table.app-launcher-apps .app-launcher-icon-z {
-    background: #eee;
+    background: linear-gradient(#fff, #ccc);
     color: #111;
 }
