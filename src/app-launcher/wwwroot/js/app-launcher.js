@@ -32,9 +32,12 @@
 
             var div = document.createElement("div");
             var iconLetter = (app.name) ? app.name.substring(0, 1).toLowerCase() : "z";
-            div.className = "app-launcher-icon-" + iconLetter;
+            div.className = "app-launcher-icon-" + iconLetter
+                + " app-launcher-icon-" + app.name.toLowerCase().replace(" ", "-").replace(/\W/g, "");
+            var span = document.createElement("span");
             var iconText = document.createTextNode(iconLetter);
-            div.appendChild(iconText);
+            span.appendChild(iconText);
+            div.appendChild(span);
             a.appendChild(div);
 
             var linkText = document.createTextNode(app.name);
