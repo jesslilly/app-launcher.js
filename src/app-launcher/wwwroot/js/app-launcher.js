@@ -78,7 +78,8 @@
         // start at 1 since the first row is a header.
         for (var index = 1; index < rows.length; index++) {
             var name = rows[index].cells[0].innerText.trim();
-            var href = rows[index].cells[1].querySelector("a").href;
+            var a = rows[index].cells[1].querySelector("a");
+            var href = (a) ? a.href : "";
             apps.push({ "name": name, "href": href });
         }
         console.log(JSON.stringify(apps));
