@@ -46,6 +46,9 @@
 
         });
 
+        while (containerElement.firstChild) {
+            containerElement.removeChild(containerElement.firstChild);
+        }
         containerElement.appendChild(table);
     }
 
@@ -69,7 +72,7 @@
     /**
      * Using a dom, find the app list table and convert into an object.
      */
-    function tableDomToAppList(dom) {
+    function tableDomToAppList(columnNumber, dom) {
         console.log(dom.title);
 
         var rows = dom.querySelector("table").querySelectorAll("tr");
@@ -78,7 +81,7 @@
         // start at 1 since the first row is a header.
         for (var index = 1; index < rows.length; index++) {
             var name = rows[index].cells[0].innerText.trim();
-            var a = rows[index].cells[1].querySelector("a");
+            var a = rows[index].cells[columnNumber].querySelector("a");
             var href = (a) ? a.href : "";
             apps.push({ "name": name, "href": href });
         }
@@ -86,9 +89,19 @@
         return apps;
     }
 
-    function scrapeTable(uri, callback) {
-        getAppListDom(uri, function(dom) {
-            var appList = tableDomToAppList(dom);
+    /**
+     * Get the app list data from a table on a page.
+     * To prevent CORS issues: Use relative URL, protocol agnostic (beginning with //), 
+     * or "direct" url without redirects.
+     * Give the table column number starting with zero.
+     * @param {} uri 
+     * @param {} columnNumber 
+     * @param {} callback 
+     * @returns {} 
+     */
+    function scrapeTable(uri, columnNumber, callback) {
+        getAppListDom(uri, function (dom) {
+            var appList = tableDomToAppList(columnNumber, dom);
             callback(appList);
         });
     }

@@ -6,7 +6,7 @@
     // or "direct" url without redirects.
     var uri = "/Home/AppList";
 
-    document.appLauncher.scrapeTable(uri, function(appList) {
+    document.appLauncher.scrapeTable(uri, 2, function(appList) {
         var container = document.querySelector("#apps");
         document.appLauncher.init(container, appList);
     });
