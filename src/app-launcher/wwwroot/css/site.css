@@ -36,3 +36,13 @@ textarea {
     display: none
   }
 }
+
+#apps.live-environment table.app-launcher-apps {
+    background: black;
+}
+#apps.test-environment table.app-launcher-apps {
+    background: #15c;
+}
+#apps.demo-environment table.app-launcher-apps {
+    background: #777;
+}
